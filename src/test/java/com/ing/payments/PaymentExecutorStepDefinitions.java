@@ -136,8 +136,4 @@ public class PaymentExecutorStepDefinitions {
         assertThat(creditorAccount).isEqualTo(jsonPath.getString("creditor_account"));
         transaction.setCreditorAccountBalance(jsonPath.getFloat("account_balance"));
     }
-
-    @And("tranasaction via mobile")
-    public void tranasactionViaMobile() {
-    }
 }

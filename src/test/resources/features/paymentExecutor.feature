@@ -8,7 +8,6 @@ Feature: Payment executor processing bank transactions
     |<transactionAmount>  |<debtorAccount>|        <present>     | <creditorAccount>|          <present>     |
     And   Debtor account balance is <balance> for transaction
     When  Transaction is send to payment system for <processingWithExpectedOutcome>
-    And   tranasaction via mobile
     Then  Transaction is "not_inserted" to the the database for processing
     And   Transaction executed by payment system fails with <errorMessage>
     Examples:
