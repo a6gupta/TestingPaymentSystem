@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/db/inserted?account=ING98NL2345"
+    }, 
+    "response": {
+        "status": 200,
+        "jsonBody": {"status":"OK"},
+        "headers": {
+      "Content-Type": "application/json"
+    }
+    }
+}

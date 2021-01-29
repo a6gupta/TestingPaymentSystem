@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/payment_executor/transaction_amount_validation_failure"
+    }, 
+    "response": {
+        "status": 400,
+        "jsonBody": {"status":"Error","message":"Transaction amount validation failure"},
+        "headers": {
+      "Content-Type": "application/json"
+    }
+    }
+}

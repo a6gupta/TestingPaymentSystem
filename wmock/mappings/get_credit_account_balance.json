@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/getAccountBalance?account=ING21NL7698"
+    }, 
+    "response": {
+        "status": 200,
+        "bodyFileName": "../__files/accountBalanceResponse2.json"
+    }
+}

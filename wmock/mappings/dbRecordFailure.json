@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/db/not_inserted?account=ING98NL2345"
+    }, 
+    "response": {
+        "status": 400,
+        "jsonBody": {"status":"Error","message":"Record not found"},
+        "headers": {
+      "Content-Type": "application/json"
+    }
+    }
+}

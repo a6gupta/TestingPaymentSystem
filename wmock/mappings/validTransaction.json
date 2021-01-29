@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/payment_executor/happy_case"
+    }, 
+    "response": {
+        "status": 200,
+        "bodyFileName": "../__files/payment_executor_response.json"
+    }
+}

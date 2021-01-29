@@ -1,0 +1,18 @@
+{
+    "transaction_id": "2W345",
+    "transaction_time": "2012-04-23T18:25:43.511Z",
+    "debtor":
+    {
+        "debtor_account": "ING98NL2345",
+        "debtor_previous_balance": 2000.0,
+        "amount_debited": 200.0,
+        "debtor_updated_balance": 1800.0
+    },
+    "creditor":
+    {
+        "creditor_account": "ING21NL7698",
+        "creditor_previous_balance": 4000.0,
+        "amount_credited": 200.0,
+        "creditor_updated_balance": 4200.0
+    }
+}

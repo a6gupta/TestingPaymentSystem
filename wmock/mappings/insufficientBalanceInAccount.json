@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/payment_executor/non_sufficient_balance"
+    }, 
+    "response": {
+        "status": 400,
+        "jsonBody": {"status":"Error","message":"Transaction failed due to insufficient balance"},
+        "headers": {
+      "Content-Type": "application/json"
+    }
+    }
+}
